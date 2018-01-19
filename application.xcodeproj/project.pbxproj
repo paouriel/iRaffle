@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B4F9F282011E77D0018AC6E /* PrizesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F9F272011E77D0018AC6E /* PrizesController.swift */; };
+		9B4F9F2A2011EC010018AC6E /* EventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F9F292011EC010018AC6E /* EventsController.swift */; };
+		9BE3FCD420118A3900150788 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3FCD320118A3900150788 /* RegisterController.swift */; };
+		9BE3FCD620118C3E00150788 /* RaffleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3FCD520118C3E00150788 /* RaffleController.swift */; };
 		9BE723BF20107D0700A2C7DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE723BE20107D0700A2C7DE /* AppDelegate.swift */; };
 		9BE723C120107D0700A2C7DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE723C020107D0700A2C7DE /* ViewController.swift */; };
 		9BE723C420107D0700A2C7DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE723C220107D0700A2C7DE /* Main.storyboard */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B4F9F272011E77D0018AC6E /* PrizesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrizesController.swift; sourceTree = "<group>"; };
+		9B4F9F292011EC010018AC6E /* EventsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsController.swift; sourceTree = "<group>"; };
+		9BE3FCD320118A3900150788 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		9BE3FCD520118C3E00150788 /* RaffleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaffleController.swift; sourceTree = "<group>"; };
 		9BE723BB20107D0700A2C7DE /* application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE723BE20107D0700A2C7DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BE723C020107D0700A2C7DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +109,10 @@
 			children = (
 				9BE723BE20107D0700A2C7DE /* AppDelegate.swift */,
 				9BE723C020107D0700A2C7DE /* ViewController.swift */,
+				9BE3FCD320118A3900150788 /* RegisterController.swift */,
+				9B4F9F292011EC010018AC6E /* EventsController.swift */,
+				9BE3FCD520118C3E00150788 /* RaffleController.swift */,
+				9B4F9F272011E77D0018AC6E /* PrizesController.swift */,
 				9BE723C220107D0700A2C7DE /* Main.storyboard */,
 				9BE723C820107D0700A2C7DE /* Assets.xcassets */,
 				9BE723CA20107D0700A2C7DE /* LaunchScreen.storyboard */,
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE3FCD620118C3E00150788 /* RaffleController.swift in Sources */,
+				9BE3FCD420118A3900150788 /* RegisterController.swift in Sources */,
+				9B4F9F282011E77D0018AC6E /* PrizesController.swift in Sources */,
 				9BE723C120107D0700A2C7DE /* ViewController.swift in Sources */,
 				9BE723BF20107D0700A2C7DE /* AppDelegate.swift in Sources */,
+				9B4F9F2A2011EC010018AC6E /* EventsController.swift in Sources */,
 				9BE723C720107D0700A2C7DE /* application.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +527,7 @@
 				9BE723E820107D0700A2C7DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BE723E920107D0700A2C7DE /* Build configuration list for PBXNativeTarget "applicationTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +536,7 @@
 				9BE723EB20107D0700A2C7DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BE723EC20107D0700A2C7DE /* Build configuration list for PBXNativeTarget "applicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +545,7 @@
 				9BE723EE20107D0700A2C7DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
